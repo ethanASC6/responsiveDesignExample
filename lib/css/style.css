@@ -75,3 +75,20 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+@media(max-width: 1030px){
+    .card-container{
+        flex-direction: column; /*everything on the page fits on a phone*/
+        align-items: center;
+    }
+}
+
+@media(max-width: 530px){
+    .card{
+        width: 80%;
+    }
+    .card img{
+        width: 80%;
+        height: auto;
+    }
+}
